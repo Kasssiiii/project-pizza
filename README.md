@@ -1,11 +1,11 @@
 # Project Name
 
-Replace this readme with your own information about your project. Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+This is my first JavaScripy project. The aim is to built a bot that will assist with ordering pizza.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+Once I understood the scope of the project, I also reviewed course maerials for this Unit. Then, I focused on decideding what variables, data types, conditionals and operators to use. Next, I decided to structure my code around the comments, which I put in first. 
 
 ## View it live
 
-Have you deployed your project somewhere? Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about
+This project has been deployed to: ... 

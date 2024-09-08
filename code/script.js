@@ -1,10 +1,14 @@
-// Start here
+// Start of the project
 
 // Step 1 - Welcome and introduction
-// Your code goes here
+
 alert(
   `Welcome to our Javascript Pizzeria. Ready to Start? - Click 'OK' to begin.`
 )
+// Asking for customer's name
+let userName = prompt('What is your name?');
+//Greeting the customer 
+alert(`Hi, ${userName}!`);
 
 // Step 2 - Food choice
 // Your code goes here
