@@ -10,10 +10,23 @@ let userName = prompt('Please enter your name');
 alert(`Hi, ${userName}!`);
 
 // Step 2 - Food choice
-let foodChoice = prompt('What would you like to order today? Please enter the number from the following options: \n1. Pizza\n2. Pasta\n3. Salad')
-
-// Step 3 - Determine customer's choice
-
+let foodChoice = prompt('What would you like to order? Please enter the number:\n1 Pizza\n2 Pasta\n3 Salad');
+// Determine the user's choice
+let customerChoice;
+if (foodChoice == 1) {
+  customerChoice = 'Pizza';
+} else if (foodChoice == 2) {
+  customerChoice = 'Pasta';
+} else if (foodChoice == 3) {
+  customerChoice = 'Salad';
+} else {
+  alert('Invalid entry. Please refresh and try again.');
+}
+// Confirm the user's choice
+if (customerChoice) {
+  alert(`You have chosen ${customerChoice}.`);
+}
+// Step 3 - Subtype choice 
 
 // Step 4 - Age
 // Your code goes here
